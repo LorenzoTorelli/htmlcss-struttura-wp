@@ -1,5 +1,41 @@
+/* ********* commons ********* */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+}
+
+.clearfix::after {
+    content: "";
+    display:table ;
+    clear: both;
+}
+/* ********* header ********* */
+.header-top, .header-bottom {
+    margin-top: 20px;
+}
+.header-top {
+    height: 100px; 
+}
+.header-bottom {
+    height: 500px; 
+}
+
+/* ********* main ********* */
+
+/* ********* footer ********* */
+
+/* ********* debug ********* */
+
+.debug .header-top {
+    background-color: rgb(229,121,230);
+}
+.debug .header-bottom {
+    background-color: rgb(225,214,122);
 }
