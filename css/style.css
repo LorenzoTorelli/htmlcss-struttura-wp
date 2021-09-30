@@ -1,5 +1,4 @@
 /* ********* commons ********* */
-
 * {
     margin: 0;
     padding: 0;
@@ -28,7 +27,6 @@ body {
 }
 
 /* ********* main ********* */
-
 .container {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -54,7 +52,6 @@ body {
 }
 
 /* ********* debug ********* */
-
 .debug .header-top {
     background-color: rgb(229,121,230);
 }
@@ -65,6 +62,7 @@ body {
 .container.debug{
     background-color: rgb(0, 135, 253);
 }
+
 .debug .box {
     background-color: rgb(171, 207, 231);
     height: 500px;
